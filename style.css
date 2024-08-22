@@ -1,9 +1,7 @@
-
 body, h1, h2, p {
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #2c3e50, #bdc3c7);
@@ -107,8 +105,6 @@ h1 {
     color: #fff;
     animation: drawAnimation 1s ease-in-out;
 }
-
-/* Keyframe animations for result */
 @keyframes winAnimation {
     0% { transform: scale(0.8); opacity: 0.5; }
     50% { transform: scale(1.1); opacity: 1; }
